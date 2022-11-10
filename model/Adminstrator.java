@@ -3,6 +3,7 @@ package com.model;
 public class Adminstrator {
 	
 	private int id;
+	private String paswword;
 	private String name; 
 	private String address; 
 	private String mobile; 
@@ -11,9 +12,10 @@ public class Adminstrator {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Adminstrator(int id, String name, String address, String mobile) {
+	public Adminstrator(int id, String paswword, String name, String address, String mobile) {
 		super();
 		this.id = id;
+		this.paswword = paswword;
 		this.name = name;
 		this.address = address;
 		this.mobile = mobile;
@@ -25,6 +27,14 @@ public class Adminstrator {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public String getPaswword() {
+		return paswword;
+	}
+
+	public void setPaswword(String paswword) {
+		this.paswword = paswword;
 	}
 
 	public String getName() {
@@ -53,7 +63,10 @@ public class Adminstrator {
 
 	@Override
 	public String toString() {
-		return "Adminstrator [id=" + id + ", name=" + name + ", address=" + address + ", mobile=" + mobile + "]";
+		return "Adminstrator [id=" + id + ", paswword=" + paswword + ", name=" + name + ", address=" + address
+				+ ", mobile=" + mobile + "]";
 	}
+
+	
 
 }
