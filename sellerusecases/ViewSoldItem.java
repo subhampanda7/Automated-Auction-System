@@ -15,6 +15,9 @@ public class ViewSoldItem {
 		
 		try {
 			List<Seller> sellers = dao.viewSoldItem();
+
+			System.out.println("Sold Item Deatils Below");
+
 			sellers.forEach(s -> System.out.println(s));
 		} catch (SellerException e) {
 			System.out.println(e.getMessage());
