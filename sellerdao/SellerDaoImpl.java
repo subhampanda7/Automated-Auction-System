@@ -49,7 +49,9 @@ public class SellerDaoImpl implements SellerDao {
 			if(x > 0) {
 				message = "Inserted Successfully...";
 			} else {
+
 				throw new SellerException("Input Mismatch or Incorrect Administration Id");
+
 			}
 			
 			
