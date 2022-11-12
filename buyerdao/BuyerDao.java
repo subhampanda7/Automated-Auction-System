@@ -17,4 +17,6 @@ public interface BuyerDao {
 	
 	public String SelectItemsToBuy(String item) throws BuyerException;
 	
+	
+	
 }
