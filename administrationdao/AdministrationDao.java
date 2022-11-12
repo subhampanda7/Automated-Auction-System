@@ -19,6 +19,10 @@ public interface AdministrationDao {
 	
 	public String solveSellerProblem(int id) throws AdminstratorException;
 	
-	public String solveBuyerProblem(int id) throws AdminstratorException; 
+	public String solveBuyerProblem(int id) throws AdminstratorException;
+	
+	public String loginAdministrator(String email, String password) throws AdminstratorException;
+	
+	
 
 }

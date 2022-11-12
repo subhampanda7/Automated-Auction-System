@@ -29,7 +29,7 @@ public class AdminstrationDaoImpl implements AdministrationDao {
 			while(rs.next()) {
 				
 				int aid = rs.getInt("Id");
-				int bid = rs.getInt("Id");
+				int bid = rs.getInt("b.Id");
 				String name = rs.getString("Name");
 				String address = rs.getString("Address");
 				String mobile = rs.getString("Mobile");
@@ -69,7 +69,7 @@ public class AdminstrationDaoImpl implements AdministrationDao {
 			while(rs.next()) {
 				
 				int aid = rs.getInt("Id");
-				int bid = rs.getInt("Id");
+				int bid = rs.getInt("s.Id");
 				String name = rs.getString("Name");
 				String address = rs.getString("Address");
 				String mobile = rs.getString("Mobile");
@@ -184,6 +184,38 @@ public class AdminstrationDaoImpl implements AdministrationDao {
 				message = "Problem Solved & Updated";
 			 else 
 				 throw new AdminstratorException("invalid id");
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AdminstratorException(e.getMessage());
+		}
+		
+		return message;
+		
+	}
+
+	@Override
+	public String loginAdministrator(String email, String password) throws AdminstratorException {
+		
+		
+		String message = "Not updated...";
+		
+		
+		try(Connection conn = DBUtil.provideConnection()) {
+			
+			PreparedStatement ps = conn.prepareStatement("select name from administrator where email = ? AND password = ?");
+			
+			ps.setString(1, email);
+			ps.setString(2, password);
+			
+			ResultSet rs = ps.executeQuery();
+			
+			if(rs.next()) {
+				message = "Sign-in successful";
+			} else {
+				throw new AdminstratorException("Invalid email or password");
+			}
+			
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
