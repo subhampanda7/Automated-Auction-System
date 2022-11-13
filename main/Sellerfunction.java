@@ -20,7 +20,7 @@ public class Sellerfunction {
 				+ "5.) Logout \n"
 				+ "================================");
 		
-		try {
+		
 			
 			int choice = sc.nextInt();
 			
@@ -49,10 +49,7 @@ public class Sellerfunction {
 				main.main(args);
 				break;
 			}
-			
-		} finally {
-			Sellerfunction.main(args);
-		}
+		
 		
 		
 	}
