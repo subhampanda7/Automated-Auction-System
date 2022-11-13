@@ -35,12 +35,12 @@ This is an individual project executed in 5 days.
 
   <p align="center">
       <img
-        width="59%"
+        width="65%"
         src="https://i.postimg.cc/jdt0k2ct/Screenshot-1685.png"
         alt=""
       />
       <img
-        width="40%"
+        width="45%"
         src="https://i.postimg.cc/vZfLdttv/root-flow.png"
         alt=""
       />
