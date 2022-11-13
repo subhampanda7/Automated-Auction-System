@@ -54,7 +54,7 @@ public class SellerDaoImpl implements SellerDao {
 			
 			
 		} catch (SQLException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			throw new SellerException(e.getMessage());
 		}
 		
