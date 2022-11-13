@@ -15,7 +15,17 @@ public class ViewRegisterdBuyerList {
 		
 		try {
 			List<RegisteredBuyer> buyers = dao.viewRegisterdBuyerList();
-			buyers.forEach(System.out::println);
+			buyers.forEach(s -> {
+				System.out.println("Adminstration id : "+s.getAdministration_Id());
+				System.out.println("Name : "+s.getName());
+				System.out.println("Buyer Id : "+s.getBuyer_Id());
+				System.out.println("Address : "+s.getAddress());
+				System.out.println("Mobile : "+s.getMobile());
+				System.out.println("Do you have any problem ? : "+s.getAny_Problem());
+				System.out.println("----------------------------------------");
+			});
+			
+			System.out.println("=====================================");
 		} catch (AdminstratorException e) {
 			System.out.println(e.getMessage());
 		}		
