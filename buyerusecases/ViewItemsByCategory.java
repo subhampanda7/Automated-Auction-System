@@ -23,7 +23,15 @@ public class ViewItemsByCategory {
 		
 		try {
 			List<SellerSpecific> sellerSpecifics = dao.viewItemsByCategory(name);
-			sellerSpecifics.forEach(s -> System.out.println(s));
+			sellerSpecifics.forEach(s -> {
+				System.out.println("Item category : "+s.getItem_category());
+				System.out.println("Item name : "+s.getItem_name());
+				
+				System.out.println("------------------------------");
+			});
+			
+			System.out.println("=====================================");
+			
 		} catch (BuyerException e) {
 			System.out.println(e.getMessage());
 		}

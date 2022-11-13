@@ -8,7 +8,7 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Welcome to louis management system");
+		System.out.println("Welcome To Louis Management System");
 		
 		System.out.println("Enter your choice \n===================== \n"
 				+ "1.) Login As Adminstrator \n"
