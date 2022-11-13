@@ -1,19 +1,22 @@
 
 # Welcome To Louis Management System (Automated Auction System)
 
-<p align="center">
-      <img
-        width="40%"
+<!-- <p align="center">
+     
+    </p> -->
+
+ <img
+  align="right"
+        width="30%"
         src="https://i.postimg.cc/9F7wJrCN/louis-management-system.png"
         alt=""
-      />
-    </p>
+      />    
 
 The main objective of Louis management system is usually to handle the process of buying and selling goods data with all details. Here administrator gives access to both buyers and sellers where they can perform various tasks easily. A large company will find it extremely hard to keep track of all buyer's and sellers' data, so Louis management system is the solution for that.
 
-Louis management system is a console based application.
+Louis management system is a console-based application.
 
-This is a SOLO project executed in 5 days.
+This is an individual project executed in 5 days.
 
 
 
