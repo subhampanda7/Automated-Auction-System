@@ -76,5 +76,5 @@ This is an individual project executed in 5 days.
 
 ## 🔗 Demo Video Link 
 
-[![portfolio](https://img.icons8.com/ios/50/null/laptop-play-video--v1.png)](https://katherineoelsner.com/)
+[![portfolio](https://img.icons8.com/ios/50/null/laptop-play-video--v1.png)](https://)
 
