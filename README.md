@@ -32,17 +32,17 @@ This is a SOLO project executed in 5 days.
 
   <p align="center">
       <img
-        width="50%"
+        width="59%"
         src="https://i.postimg.cc/jdt0k2ct/Screenshot-1685.png"
         alt=""
       />
       <img
-        width="50%"
+        width="40%"
         src="https://i.postimg.cc/vZfLdttv/root-flow.png"
         alt=""
       />
       <img
-        width="50%"
+        width="70%"
         src="https://i.postimg.cc/Hn7xZx9Q/updated-work.png"
         alt=""
       />
