@@ -45,8 +45,8 @@ This is an individual project executed in 5 days.
         alt=""
       />
       <img
-        width="70%"
-        src="https://i.postimg.cc/Hn7xZx9Q/updated-work.png"
+        width="75%"
+        src="https://i.postimg.cc/L4xsh3Tf/Flowchart-Template-1-2.jpg"
         alt=""
       />
     </p>
